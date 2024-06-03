@@ -439,7 +439,7 @@
             padding: 15px 200px 15px 15px;
             }
             #button{
-              padding: 15px;
+              padding: 17px;
               }
               .search{
               border: solid black 1px;
@@ -455,6 +455,6 @@
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 650px;
+                  padding-left: 750px;
                 }
     }
