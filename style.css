@@ -44,3 +44,146 @@
     #time-date{
       padding-left: 800px;
     }
+
+    /* Phones media queries */
+
+    @media only screen and (min-width: 350px){
+      #headings{
+        padding: 20px;
+        }
+        h1{
+          color: white;
+          font-size: 25px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 11px 35px 11px 10px;
+            font-size: medium;
+            }
+            #button{
+              padding: 11px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 15px;
+              background-color: black;
+              color: white;
+              width: 270px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 18px;
+              }
+                #container{
+                  padding-top: 50px;
+                  padding-bottom: 50px;
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 10px;
+                }
+    }
+    @media only screen and (min-width: 400px){
+      #headings{
+        padding: 30px;
+        }
+        h1{
+          color: white;
+          font-size: 27px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 12px 50px 12px 10px;
+            font-size: large;
+            }
+            #button{
+              padding: 13px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 15px;
+              background-color: black;
+              color: white;
+              width: 270px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 20px;
+              }
+                #container{
+                  padding-top: 50px;
+                  padding-bottom: 50px;
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 10px;
+                }
+    }
+    @media only screen and (min-width: 500px){
+      #headings{
+        padding: 50px;
+        }
+        h1{
+          color: white;
+          font-size: 30px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 12px 90px 12px 10px;
+            font-size: large;
+            }
+            #button{
+              padding: 13px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 15px;
+              background-color: black;
+              color: white;
+              width: 270px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 20px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 50px;
+                }
+    }
+    @media only screen and (min-width: 750px){
+      #headings{
+        padding: 50px;
+        }
+        h1{
+          color: white;
+          font-size: 50px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 15px 90px 15px 10px;
+            font-size: large;
+            }
+            #button{
+              padding: 15px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 20px;
+              background-color: black;
+              color: white;
+              width: 300px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 22px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 160px;
+                }
+    }
