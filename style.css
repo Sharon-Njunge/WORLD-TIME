@@ -184,6 +184,277 @@
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 160px;
+                  padding-left: 160px;}
+                  
+    @media only screen and (min-width: 800px){
+  #headings{
+    padding: 50px;
+    }
+    h1{
+      color: white;
+      font-size: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      }
+      #search-bar{
+        padding: 15px 200px 15px 10px;
+        font-size: large;
+        }
+        #button{
+          padding: 15px;
+          }
+          .search{
+          border: solid black 1px;
+          padding: 20px;
+          background-color: black;
+          color: white;
+          width: 300px;
+          border-radius: 20px;
+          text-align: center;
+          font-size: 22px;
+          }
+            #container{
+            text-align: center;
+            }
+            #time-date{
+              padding-left: 0px;
+            }
+}
+
+@media only screen and (min-width: 1000px){
+  #headings{
+    padding: 10px;
+    }
+    h1{
+      color: white;
+      font-size: 60px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      }
+      #search-bar{
+        padding: 15px 20px;
+        }
+        #button{
+          padding: 15px;
+          }
+          .search{
+          border: solid black 1px;
+          padding: 20px;
+          background-color: black;
+          color: white;
+          width: 270px;
+          border-radius: 20px;
+          text-align: center;
+          font-size: 22px;
+          }
+            #container{
+            text-align: center;
+            }
+            #time-date{
+              padding-left: 30px;
+            }
+}
+@media only screen and (min-width: 1200px){
+  #headings{
+    padding: 10px;
+    }
+    h1{
+      color: white;
+      font-size: 55px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      }
+      #search-bar{
+        padding: 15px 200px 15px 15px;
+        }
+        #button{
+          padding: 15px;
+          }
+          .search{
+          border: solid black 1px;
+          padding: 20px;
+          background-color: black;
+          color: white;
+          width: 270px;
+          border-radius: 20px;
+          text-align: center;
+          font-size: 22px;
+          }
+            #container{
+            text-align: center;
+            }
+            #time-date{
+              padding-left: 360px;
+            }
+}
+@media only screen and (min-width: 1300px){
+  #headings{
+    padding: 10px;
+    }
+    h1{
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      }
+      #search-bar{
+        padding: 15px 200px 15px 15px;
+        }
+        #button{
+          padding: 15px;
+          }
+          .search{
+          border: solid black 1px;
+          padding: 20px;
+          background-color: black;
+          color: white;
+          width: 350px;
+          border-radius: 20px;
+          text-align: center;
+          font-size: 25px;
+          }
+            #container{
+            text-align: center;
+            }
+            #time-date{
+              padding-left: 750px;
+            }
+}
+                }
+
+
+    /* Large Screens media queries */
+
+    @media only screen and (min-width: 800px){
+      #headings{
+        padding: 50px;
+        }
+        h1{
+          color: white;
+          font-size: 60px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 15px 90px 15px 10px;
+            font-size: large;
+            }
+            #button{
+              padding: 12px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 20px;
+              background-color: black;
+              color: white;
+              width: 300px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 22px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 240px;
+                }
+    }
+    @media only screen and (min-width: 1000px){
+      #headings{
+        padding: 10px;
+        }
+        h1{
+          color: white;
+          font-size: 40px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 15px 20px;
+            }
+            #button{
+              padding: 15px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 20px;
+              background-color: black;
+              color: white;
+              width: 270px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 22px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 320px;
+                }
+    }
+    @media only screen and (min-width: 1200px){
+      #headings{
+        padding: 10px;
+        }
+        h1{
+          color: white;
+          font-size: 55px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 15px 200px 15px 15px;
+            }
+            #button{
+              padding: 15px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 20px;
+              background-color: black;
+              color: white;
+              width: 270px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 22px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 360px;
+                }
+    }
+    @media only screen and (min-width: 1300px){
+      #headings{
+        padding: 10px;
+        }
+        h1{
+          color: white;
+          font-size: 80px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 15px 200px 15px 15px;
+            }
+            #button{
+              padding: 15px;
+              }
+              .search{
+              border: solid black 1px;
+              padding: 20px;
+              background-color: black;
+              color: white;
+              width: 350px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 25px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 650px;
                 }
     }
