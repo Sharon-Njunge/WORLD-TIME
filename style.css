@@ -1,0 +1,46 @@
+
+
+/* Styling the HTML */
+#search-bar{
+    padding: 20px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding-right: 200px;
+    }
+    #button{
+    padding: 18px;
+    border: solid black 1px;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: black;
+    }
+    .search{
+    border: solid black 1px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 270px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    }
+    body{
+        background-image: url(images/BackGround.png);
+    background-repeat: repeat;
+      }
+    h1{
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+    #headings{
+    padding: 150px;
+    }
+    #container{
+    text-align: center;
+    }
+    #time-date{
+      padding-left: 800px;
+    }
