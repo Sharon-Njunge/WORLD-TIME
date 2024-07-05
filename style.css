@@ -8,13 +8,17 @@
     padding-right: 200px;
     }
     #button{
+    position: relative;
     padding: 18px;
-    border: solid black 1px;
     color: white;
     font-size: 13px;
     border-radius: 5px;
+    border: solid 1px black;
     background-color: black;
+    cursor: pointer;
     }
+     
+
     .search{
     border: solid black 1px;
     padding: 20px;
@@ -27,7 +31,8 @@
     }
     body{
         background-image: url(images/BackGround.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
       }
     h1{
     color: white;
@@ -45,20 +50,67 @@
       padding-left: 800px;
     }
 
+    
     /* Phones media queries */
 
-    @media only screen and (min-width: 350px){
+
+    @media only screen and (min-width: 280px){
       #headings{
-        padding: 20px;
+        padding: 50px 8px;
         }
         h1{
           color: white;
-          font-size: 25px;
+          font-size: 21px;
           font-family: Georgia, 'Times New Roman', Times, serif;
           text-align: center;
           }
           #search-bar{
-            padding: 11px 35px 11px 10px;
+            padding: 10px 28px;
+            font-size: medium;
+            }
+            #button{
+              padding: 10px;
+              margin: 30px 20px;
+              
+              }
+              .search{
+              border: solid black 1px;
+              padding: 15px 18px;
+              background-color: black;
+              color: white;
+              width: 220px;
+              border-radius: 20px;
+              text-align: center;
+              font-size: 15px;
+              }
+                #container{
+                text-align: center;
+                }
+                #time-date{
+                  padding-left: 2px;
+                }
+
+                body{
+
+                  background-image: url(images/effeil-tower.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  
+                }
+
+              }
+   
+    @media only screen and (min-width: 350px){
+      #headings{
+        padding: 20px 0px;
+        }
+        h1{
+          font-size: 29px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          }
+          #search-bar{
+            padding: 11px 100px 11px 10px;
             font-size: medium;
             }
             #button{
@@ -69,7 +121,7 @@
               padding: 15px;
               background-color: black;
               color: white;
-              width: 270px;
+              width: 300px;
               border-radius: 20px;
               text-align: center;
               font-size: 18px;
@@ -82,30 +134,38 @@
                 #time-date{
                   padding-left: 10px;
                 }
+
+                body{
+
+                  background-image: url(images/effeil-tower.jpg);
+                  background-repeat: repeat;
+                  background-size: cover;
+                  
+                }
     }
     @media only screen and (min-width: 400px){
       #headings{
-        padding: 30px;
+        padding: 50px 0px;
         }
         h1{
           color: white;
-          font-size: 27px;
+          font-size: 33px;
           font-family: Georgia, 'Times New Roman', Times, serif;
           text-align: center;
           }
           #search-bar{
-            padding: 12px 50px 12px 10px;
+            padding: 12px 110px 12px 20px;
             font-size: large;
             }
             #button{
-              padding: 13px;
+              padding: 15px;
               }
               .search{
               border: solid black 1px;
               padding: 15px;
               background-color: black;
               color: white;
-              width: 270px;
+              width: 350px;
               border-radius: 20px;
               text-align: center;
               font-size: 20px;
@@ -118,44 +178,46 @@
                 #time-date{
                   padding-left: 10px;
                 }
+
+
+
+                body{
+                  background-image: url(images/effeil-tower.jpg);
+              background-repeat: repeat;
+              background-size: cover;
+                }
+
     }
     @media only screen and (min-width: 500px){
       #headings{
-        padding: 50px;
+        padding: 30px 10px;
         }
         h1{
-          color: white;
-          font-size: 30px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          text-align: center;
+          font-size: 40px;
           }
-          #search-bar{
-            padding: 12px 90px 12px 10px;
-            font-size: large;
-            }
-            #button{
-              padding: 13px;
-              }
+         
               .search{
-              border: solid black 1px;
-              padding: 15px;
               background-color: black;
-              color: white;
-              width: 270px;
-              border-radius: 20px;
-              text-align: center;
-              font-size: 20px;
+              width: 450px;
               }
                 #container{
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 50px;
+                  padding-left: 10px;
                 }
+
+
+                body{
+                  background-image: url(images/effeil-tower.jpg);
+              background-repeat: repeat;
+              background-size: cover;
+                }
+
     }
     @media only screen and (min-width: 750px){
       #headings{
-        padding: 50px;
+        padding: 50px 5px;
         }
         h1{
           color: white;
@@ -164,199 +226,77 @@
           text-align: center;
           }
           #search-bar{
-            padding: 15px 90px 15px 10px;
+            padding: 15px 230px 15px 10px;
             font-size: large;
             }
             #button{
-              padding: 15px;
+              padding: 20px;
               }
               .search{
               border: solid black 1px;
               padding: 20px;
               background-color: black;
               color: white;
-              width: 300px;
+              width: 560px;
               border-radius: 20px;
               text-align: center;
-              font-size: 22px;
+              font-size: 25px;
               }
                 #container{
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 160px;}
-                  
-    @media only screen and (min-width: 800px){
-  #headings{
-    padding: 50px;
-    }
-    h1{
-      color: white;
-      font-size: 50px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
-      }
-      #search-bar{
-        padding: 15px 200px 15px 10px;
-        font-size: large;
-        }
-        #button{
-          padding: 15px;
-          }
-          .search{
-          border: solid black 1px;
-          padding: 20px;
-          background-color: black;
-          color: white;
-          width: 300px;
-          border-radius: 20px;
-          text-align: center;
-          font-size: 22px;
-          }
-            #container{
-            text-align: center;
-            }
-            #time-date{
-              padding-left: 0px;
-            }
-}
-
-@media only screen and (min-width: 1000px){
-  #headings{
-    padding: 10px;
-    }
-    h1{
-      color: white;
-      font-size: 60px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
-      }
-      #search-bar{
-        padding: 15px 20px;
-        }
-        #button{
-          padding: 15px;
-          }
-          .search{
-          border: solid black 1px;
-          padding: 20px;
-          background-color: black;
-          color: white;
-          width: 270px;
-          border-radius: 20px;
-          text-align: center;
-          font-size: 22px;
-          }
-            #container{
-            text-align: center;
-            }
-            #time-date{
-              padding-left: 30px;
-            }
-}
-@media only screen and (min-width: 1200px){
-  #headings{
-    padding: 10px;
-    }
-    h1{
-      color: white;
-      font-size: 55px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
-      }
-      #search-bar{
-        padding: 15px 200px 15px 15px;
-        }
-        #button{
-          padding: 15px;
-          }
-          .search{
-          border: solid black 1px;
-          padding: 20px;
-          background-color: black;
-          color: white;
-          width: 270px;
-          border-radius: 20px;
-          text-align: center;
-          font-size: 22px;
-          }
-            #container{
-            text-align: center;
-            }
-            #time-date{
-              padding-left: 360px;
-            }
-}
-@media only screen and (min-width: 1300px){
-  #headings{
-    padding: 10px;
-    }
-    h1{
-      color: white;
-      font-size: 80px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
-      }
-      #search-bar{
-        padding: 15px 200px 15px 15px;
-        }
-        #button{
-          padding: 15px;
-          }
-          .search{
-          border: solid black 1px;
-          padding: 20px;
-          background-color: black;
-          color: white;
-          width: 350px;
-          border-radius: 20px;
-          text-align: center;
-          font-size: 25px;
-          }
-            #container{
-            text-align: center;
-            }
-            #time-date{
-              padding-left: 750px;
-            }
-}
+                  padding-left: 60px;
+                
                 }
 
+                  body{
+
+                    background-image: url(images/tour\ effeil.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                  }
+
+                }
+                  
+                
 
     /* Large Screens media queries */
 
     @media only screen and (min-width: 800px){
       #headings{
-        padding: 50px;
+        padding: 50px 20px;
         }
         h1{
           color: white;
-          font-size: 60px;
+          font-size: 70px;
           font-family: Georgia, 'Times New Roman', Times, serif;
           text-align: center;
           }
           #search-bar{
-            padding: 15px 90px 15px 10px;
-            font-size: large;
+            padding: 30px 300px 20px 30px;
+            font-size: 25px;
             }
             #button{
-              padding: 12px;
+              padding: 25px;
+              font-size: x-large;
               }
               .search{
               border: solid black 1px;
               padding: 20px;
               background-color: black;
               color: white;
-              width: 300px;
+              width: 820px;
               border-radius: 20px;
               text-align: center;
-              font-size: 22px;
+              font-size: 40px;
               }
                 #container{
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 240px;
+                  padding-left: 10px;
                 }
     }
     @media only screen and (min-width: 1000px){
@@ -370,17 +310,19 @@
           text-align: center;
           }
           #search-bar{
-            padding: 15px 20px;
+            padding: 15px 140px 15px 20px;
+            font-size: 15px;
             }
             #button{
               padding: 15px;
+              font-size: 15px;
               }
               .search{
               border: solid black 1px;
-              padding: 20px;
+              padding: 10px;
               background-color: black;
               color: white;
-              width: 270px;
+              width: 465px;
               border-radius: 20px;
               text-align: center;
               font-size: 22px;
@@ -389,18 +331,32 @@
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 320px;
+                  padding-left: 250px;
                 }
+
+                body{
+
+                  background-image: url(images/tour\ effeil.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                
+                  
+                }
+
+
+                body{
+                  background-image: url(images/BackGround.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+                }
+
+
     }
     @media only screen and (min-width: 1200px){
-      #headings{
-        padding: 10px;
-        }
         h1{
-          color: white;
+
           font-size: 55px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          text-align: center;
+        
           }
           #search-bar{
             padding: 15px 200px 15px 15px;
@@ -409,21 +365,27 @@
               padding: 15px;
               }
               .search{
-              border: solid black 1px;
-              padding: 20px;
+              padding: 15px;
               background-color: black;
               color: white;
-              width: 270px;
-              border-radius: 20px;
-              text-align: center;
+              width: 545px;
               font-size: 22px;
               }
                 #container{
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 360px;
+                  padding-left: 335px;
                 }
+
+
+                body{
+                  background-image: url(images/BackGround.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+                }
+
+
     }
     @media only screen and (min-width: 1300px){
       #headings{
@@ -446,7 +408,7 @@
               padding: 20px;
               background-color: black;
               color: white;
-              width: 350px;
+              width: 550px;
               border-radius: 20px;
               text-align: center;
               font-size: 25px;
@@ -455,6 +417,13 @@
                 text-align: center;
                 }
                 #time-date{
-                  padding-left: 750px;
+                  padding-left: 715px;
                 }
+
+                body{
+                  background-image: url(images/BackGround.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+                }
+
     }
