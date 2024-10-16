@@ -1,9 +1,6 @@
 
-
 const searched = document.getElementById('search-bar');
 const button = document.getElementById('button');
-
-// APIS 
 
 const baseUrl = "https://worldtimeapi.org/api/timezone";
 const container = document.getElementById('container');
